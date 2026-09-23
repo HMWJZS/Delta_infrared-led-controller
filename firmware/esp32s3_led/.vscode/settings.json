@@ -1,0 +1,16 @@
+{
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**"
+  ],
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.flashType": "UART",
+  "idf.flashBaudRate": "115200",
+  "idf.currentSetup": "/home/descfly/.espressif/v6.1/esp-idf",
+  "idf.port": "/dev/ttyUSB0"
+}

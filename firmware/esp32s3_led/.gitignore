@@ -1,0 +1,11 @@
+# 构建产物（ESP-IDF 生成）
+build/
+sdkconfig.old
+
+# 工具脚本的临时产物
+tools/logs/
+tools/__pycache__/
+__pycache__/
+
+# 编辑器
+.vscode/ipch/
